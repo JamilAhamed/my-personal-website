@@ -5,18 +5,19 @@ body{
 h1{
     font-size: 50px;
 }
-.name-coloring{
-    color:deeppink
+h2{
+    font-size: 30px;
 }
 h3{
     color: deeppink;
 }
+.name-coloring{
+    color:deeppink
+}
 p{
     color: gray;
 }
-section{
-    padding-bottom: 150px;
-}
+
 .half-width{
     width: 40%;
     float: left;
@@ -26,6 +27,16 @@ section{
 .half-width img{
     width: 90%;
 }
+section{
+    padding-bottom:2%;
+    height: 100px;
+    
+    margin:0px ;
+}
+.new-shadow{
+        box-shadow: 10px 20px 40px deeppink;
+        padding: 10px 10px 10px 10px;  
+}
 .anchor-button{
     background-color: deeppink;
     text-decoration: none;
@@ -34,6 +45,32 @@ section{
     font-weight: 500;
     color: white;
 }
-.adding-background-color{
-    background-color: grey;
+.project-area{
+    text-align: center;
+    height: 200%;
+    width: 50%;
 }
+.project-heading{
+    background-origin: padding-box;
+    text-align: center;
+    background-image:50px deeppink;
+}
+.project-class{
+    width: 28%;
+    float: left;
+    margin-left: 3%;
+    padding-left: 2%;
+}
+.project-image{
+    width: 90%;
+}
+.project-box{
+    box-shadow: 10px 10px 40px deeppink;
+    border-radius: 10px;
+    height: 100%;
+    width: 28%;
+}
+.footer{
+    color:deeppink;
+    text-align: center;
+} 
